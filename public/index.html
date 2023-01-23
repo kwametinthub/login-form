@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body
+    class="antialiased bg-gradient-to-br from-slate-600 to-slate-900 w-full h-screen grid place-content-center"
+  >
+    <div
+      class="grid place-content-center max-w-md bg-gradient-to-br from-emerald-400 to-emerald-900 mx-auto rounded-md drop-shadow-2xl"
+    >
+      <div class="p-6 flex flex-col space-y-4">
+        <p class="text-2xl font-bold uppercase text-slate-100">Login</p>
+        <div>
+          <form action="" class="flex flex-col space-y-4">
+            <div class="flex flex-col">
+              <label for="Username" class="text-sm uppercase text-white"
+                >Username</label
+              >
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username"
+                class="p-2 rounded-sm drop-shadow-xl mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-emerald-300"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="Password" class="text-sm uppercase text-white"
+                >Password</label
+              >
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="p-2 rounded-sm drop-shadow-xl mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-emerald-300"
+              />
+            </div>
+            <div class="flex items-center justify-between">
+              <input
+                type="submit"
+                value="Login"
+                class="bg-slate-800 text-md font-bold px-4 py-2 rounded-md drop-shadow-lg uppercase text-white"
+              />
+
+              <a href="#" class="text-white hover:underline">Forgot Password</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
